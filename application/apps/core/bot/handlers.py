@@ -24,9 +24,9 @@ async def start(message: Message):
     )
 
     if is_created:
-        await message.answer("You have successfully registered in the bot!")
+        await message.answer("Для того что бы начать набери  или нажми /menu")
     else:
-        await message.answer("You are already registered in the bot!")
+        await message.answer("Для того что бы начать набери или нажми /menu")
 
 
 async def send_my_id(message: Message):

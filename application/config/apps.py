@@ -3,11 +3,12 @@ from typing import Optional
 from aiogram import Dispatcher
 from tortoise import Tortoise
 
-from apps import core
+from apps import core, shedule_sift
 
 # Register your apps here
 INSTALLED_APPS = [
     core,
+    shedule_sift,
 ]
 
 
